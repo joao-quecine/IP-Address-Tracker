@@ -1,7 +1,7 @@
 # IP Address Tracker
 
 ## Visão geral do projeto
-Uma aplicação web que localiza  o endereço de IP atual e informa a cidade, estado e país correspondente. O projeto inspirado em uma sugestao de projeto no site [Frontendmentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0)
+Uma aplicação web que localiza  o endereço de IP atual e informa a cidade, estado e país correspondente. O projeto inspirado em uma sugestao de projeto no site [Frontendmentor](https://www.frontendmentor.io).
 
 ## Funcionalidades
 - Localizar  o endereço de um dispositivo com base no seu IP.
