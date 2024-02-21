@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="estilo.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="ip.png">
+    <!--lik necessário para a APi OpenLayers-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v8.2.0/ol.css">
     <title>IP Address Tracker</title>
 </head>
 <body>
@@ -18,24 +20,25 @@
             <ul>
                 <li>
                     <h6 class="info-title">IP-Address</h6>
-                    <div class="info" id="IP-Address">testeeeeeeeeeeeeeeeee</div>
+                    <div class="info" id="IP-Address">...</div>
                 </li>
                 <li>
                     <h6 class="info-title">Location</h6>
-                    <div class="info" id="Location">testeeeeeeee</div>
+                    <div class="info" id="Location">...</div>
                 </li>
                 <li>
                     <h6 class="info-title">Timezone</h6>
-                    <div class="info" id="Timezone">testeeeeeeeee</div>
+                    <div class="info" id="Timezone">...</div>
                 </li>
                 <li >
                     <h6 class="info-title">ISP</h6>
-                    <div class="info" id="ISP">testeeeeeeee</div>
+                    <div class="info" id="ISP">...</div>
                 </li>
             </ul>
         </div>
     </header>
-
+    <div id="map"></div>
+    <script src="https://cdn.jsdelivr.net/npm/ol@v8.2.0/dist/ol.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

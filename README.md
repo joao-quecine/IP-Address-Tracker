@@ -5,6 +5,7 @@ Uma aplicação web que localiza  o endereço de IP atual e informa a cidade, es
 
 ## Funcionalidades
 - Localizar  o endereço de um dispositivo com base no seu IP.
+- adicionar um marcador nas coordenadas do Ip em um mapa interativo.
 
 ## Requisitos do sistema
 - Navegador moderno com suporte ao Javascript.
@@ -16,4 +17,4 @@ Uma aplicação web que localiza  o endereço de IP atual e informa a cidade, es
 
 ## Guia de uso
 1.  Digite o IP que deseja pesquisar no campo de texto;
-2. Clique em **>** ou aperte a tecla enter para ver os dados da localização geográfica e informações adicionais sobre o IP;
+2. Clique no botão com a lupa ou aperte a tecla enter para ver os dados da localização geográfica e informações adicionais sobre o IP;
