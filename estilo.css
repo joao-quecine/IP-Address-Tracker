@@ -84,3 +84,24 @@ input{
     font-size: 24px;
     word-wrap: break-word;
 }
+
+
+/*tornando a pagina responsiva*/
+@media (max-width:750px) {
+    header{
+        height: 250px;
+    }
+    input{
+        width: 80%;
+    }
+    #container-info{
+        width: 80%;
+    }
+    #container-info ul{
+        display: block;
+    }
+    #container-info ul li{
+        width: 100%;
+        min-height: 30px;
+    }
+}
